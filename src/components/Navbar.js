@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import { CgGitFork } from "react-icons/cg";
+import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -12,7 +14,6 @@ import {
   AiFillContacts,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -91,6 +92,16 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                href="https://lavishjain.hashnode.dev/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
                 as={Link}
                 to="/contact"
                 onClick={() => updateExpanded(false)}
@@ -101,11 +112,11 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Lavish5"
+                href="https://github.com/Lavish5/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <FaLinkedinIn style={{ fontSize: "1.5em" }} />{" "}
+                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>

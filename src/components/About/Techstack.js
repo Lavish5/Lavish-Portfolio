@@ -1,13 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiRuby,
-  DiReact,
+  DiPython,
+  DiSpark,
   DiGit,
+  DiAws
 } from "react-icons/di";
 import {
-  SiRubyonrails,
   SiPostgresql,
+  SiMicrosoftazure
 } from "react-icons/si";
 
 
@@ -15,12 +16,12 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiRuby />
-        <p className="icon-text"> Ruby </p>
+        <DiPython />
+        <p className="icon-text"> Python </p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-        <p className="icon-text"> React.js </p>
+        <DiSpark />
+        <p className="icon-text"> Spark </p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -31,8 +32,12 @@ function Techstack() {
         <p className="icon-text"> PostgreSQL </p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRubyonrails />
-        <p className="icon-text"> Rails API </p>
+        <DiAws />
+        <p className="icon-text"> Aws </p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure />
+        <p className="icon-text"> Azure </p>
       </Col>
     </Row>
   );

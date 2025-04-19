@@ -7,7 +7,7 @@ import {
   AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { ImPointRight } from  "react-icons/im";
+import { ImPointRight } from "react-icons/im";
 
 function Home2() {
   return (
@@ -19,53 +19,38 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            So, I've fallen head over heels for programming. I mean, who wouldn't? It's like solving puzzles all day while pretending to be a wizard. 🧙‍♂️ Now, do I actually know what I'm doing? Well, let's just say my code sometimes looks like a Picasso painting... abstract, to say the least. But hey, isn't that how masterpieces are made? 💻😅 So here's to stumbling through syntax errors and pretending I'm a coding genius! 🥂 #ProgrammerLife
+            I fell in love with data engineering, and I have picked up a thing or two
+            along the way… 🤷‍♂️
               <br />
-              <br />My name is
+              <br />I am fluent in tools and languages like
               <i>
-                <b className="purple"> Yoshihiro Yamada from San Diego, California. </b>
+                <b className="purple">  Python, SQL and Spark.  </b>
               </i>
               <br />
               <br />
-              I am fluent with 
+              My field of Interest's are lies in &nbsp;
               <i>
-                <b className="purple"> React and Ruby.</b>
+                <b className="purple"> building scalable data pipelines, automating workflows</b> and
+                and in{" "}
+                <b className="purple">
+                  designing data architectures.
+                </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products.</b>
-                
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing frontend and backend products
-              with <b className="purple">React and Ruby</b> with
+              Whenever possible, I apply my passion for developing products
+              with <b className="purple">cloud-native solutions</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks and Ruby framework
+                  Open Source frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Rails.</b>
+                <b className="purple"> Azure, Hadoop, Map Reduce.</b>
               </i>
-              <br />
-              Apart from coding, some other activities that I love to do
             </p>
-            <ul>
-            <li className="about-activity">
-              <ImPointRight /> Snowboarding
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Walking with my dog
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Hanging out with friends
-            </li>
-          </ul>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -73,14 +58,17 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>CONNECT WITH ME</h1>
-            
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/yoshihiroyamada23"
+                  href="https://github.com/Lavish5"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -90,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/yoshihiroyamada/"
+                  href="https://www.linkedin.com/in/lavish-jain-98aaa21b6/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -100,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:yoshihiro.yamada1995@gmail.com"
+                  href="mailto:lavishjain05@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
