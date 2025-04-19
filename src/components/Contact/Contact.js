@@ -19,7 +19,7 @@ function Contact () {
               <li className="social-icons">GITHUB:
               
                 <a
-                  href="https://github.com/yoshihiroyamada23"
+                  href="https://github.com/Lavish5"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -30,7 +30,7 @@ function Contact () {
               </li>
               <li className="social-icons"> LINKEDIN: 
                 <a
-                  href="https://www.linkedin.com/in/yoshihiroyamada/"
+                  href="https://www.linkedin.com/in//lavish-jain-98aaa21b6/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -40,7 +40,7 @@ function Contact () {
               </li>
               <li className="social-icons">EMAIL ME:
                 <a
-                  href="mailto:yoshihiro.yamada1995@gmail.com"
+                  href="mailto:lavishjain05@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

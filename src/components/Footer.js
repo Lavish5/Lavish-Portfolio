@@ -13,7 +13,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Yoshihiro Yamada</h3>
+          <h3>Designed and Developed by Lavish Jain</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} YY</h3>
@@ -22,7 +22,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/yoshihiroyamada23"
+                href="https://github.com/Lavish5"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -32,7 +32,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/yoshihiroyamada/"
+                href="https://www.linkedin.com/in/lavish-jain-98aaa21b6/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:yoshihiro.yamada1995@gmail.com"
+                href="mailto:lavishjain05@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

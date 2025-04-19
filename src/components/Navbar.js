@@ -91,17 +91,17 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-               as={Link}
-               to="/contact"
-               onClick={() => updateExpanded(false)}
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
-              <AiFillContacts style={{ marginBottom: "2px "}} /> Contact
+                <AiFillContacts style={{ marginBottom: "2px " }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/yoshihiroyamada23"
+                href="https://github.com/Lavish5"
                 target="_blank"
                 className="fork-btn-inner"
               >
