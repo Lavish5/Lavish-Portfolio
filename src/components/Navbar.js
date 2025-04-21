@@ -92,7 +92,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://lavishjain.hashnode.dev/"
+                href="https://lavish5.hashnode.dev/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -112,7 +112,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Lavish5/Portfolio"
+                href="https://github.com/Lavish5/Lavish-Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

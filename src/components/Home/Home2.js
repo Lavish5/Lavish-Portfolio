@@ -30,20 +30,20 @@ function Home2() {
               <br />
               My field of Interest's are lies in &nbsp;
               <i>
-                <b className="purple"> building scalable data pipelines, automating workflows</b> and
+                <b className="purple"> Building Scalable Data Pipelines, Automating Workflows</b> and
                 and in{" "}
                 <b className="purple">
-                  designing data architectures.
+                  Designing Data Architectures.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I apply my passion for developing products
-              with <b className="purple">cloud-native solutions</b> and
+              with <b className="purple">Cloud-Native Solutions</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Open Source frameworks
+                  Open Source Frameworks
                 </b>
               </i>
               &nbsp; like
