@@ -7,33 +7,30 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple"> Lavish Jain </span>
-            from <span className="purple"> Indore, India.</span>
+          <p className="about-card-text">
+            I like building systems that are simple to trust: clear data flows,
+            strong validation, predictable deployments, and documentation that
+            helps teams move faster.
             <br />
-            I am currently employed as a Data Engineer at Chubb.
+            My focus is not just moving data from one place to another, but
+            making sure it is accurate, available, and useful for the people who
+            depend on it.
             <br />
-            I have completed my Bachleor's  in Computer Science and Statistics as major.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Outside day-to-day engineering, I enjoy sharpening my craft through:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Exploring modern data architecture patterns
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Writing and sharing technical learnings
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Turning complex problems into practical solutions
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Lavish</footer>
         </blockquote>
       </Card.Body>
     </Card>

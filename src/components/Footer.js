@@ -1,31 +1,29 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillMail,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  const year = new Date().getFullYear();
+
   return (
     <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Lavish Jain</h3>
+      <Row className="footer-row">
+        <Col md="4" className="footer-copywright footer-brand">
+          <h3>Lavish Jain</h3>
+          <p>Data Engineer | Cloud & Analytics</p>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} YY</h3>
+          <h3>&copy; {year} All rights reserved.</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/Lavish5"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
                 <AiFillGithub />
               </a>
@@ -33,9 +31,9 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/lavish-jain-98aaa21b6/"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <FaLinkedinIn />
               </a>
@@ -43,9 +41,9 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="mailto:lavishjain05@gmail.com"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Email"
               >
                 <AiFillMail />
               </a>

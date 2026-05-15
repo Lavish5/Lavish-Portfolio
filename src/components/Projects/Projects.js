@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import kanji from "../../Assets/Projects/kanji.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-import CatTinder from "../../Assets/Projects/CatTinder.png"
-
+import codeEditor from "../../Assets/Projects/dataQuality.png";
+import analytics from "../../Assets/Projects/multiCloudETL.png";
+import lakehouse from "../../Assets/Projects/lakehouse.png";
 
 function Projects() {
   return (
@@ -13,43 +13,40 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Things I've <strong className="purple">Built </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          A few things I've built to solve real data problems and turn raw
+          information into reliable, useful insights.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kanji}
+              imgPath={codeEditor}
               isBlog={false}
-              title="Kanji"
-              description="Kanji is a capstone project where it showcase full-stack developer using React and Ruby on Rails. It is a website for rare collectibles which showcases full CRUD functionalities."
-              ghLink="https://github.com/orgs/RarityKanji/repositories"
+              title="Automated Data Quality Framework"
+              description="Built a data quality monitoring framework using Great Expectations and Python to validate and profile structured datasets. Implemented automated expectation suites with threshold-based alerting to detect schema drift and null violations before reaching downstream consumers."
+              ghLink="https://github.com/Lavish5/data-quality-framework"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CatTinder}
+              imgPath={analytics}
               isBlog={false}
-              title="Cat Tinder"
-              description="Cat Tinder is a full-stack application which showcases both front-end and back-end using React and Ruby on Rails. It is an application which showcases full CRUD functionalities and user friendly"
-              ghLink="https://github.com/yoshihiroyamada23/cat-tinder-front-end"
+              title="Multi-Cloud ETL Pipeline"
+              description="Engineered an end-to-end ETL pipeline ingesting raw data from AWS S3, transforming with PySpark on Azure Databricks, and loading into Snowflake for analytics consumption. Optimized data workflows for scalability and performance across multiple cloud platforms."
+              ghLink="https://github.com/Lavish5/multi-cloud-etl-pipeline"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={lakehouse}
               isBlog={false}
-              title="Radiation RUN!"
-              description="Radiation Run is a Text Based Game created in Ruby where each direction is either you suffer from radiation or you get an immune pill. SO BE CAREFUL WHICH ARROW KEYS YOU PRESS."
-              ghLink="https://github.com/yoshihiroyamada23/Text-Based-Game"
+              title="Lakehouse Architecture Implementation"
+              description="Architected and implemented an enterprise-grade Lakehouse solution on Azure Databricks with ADLS Gen2 and Delta Lake. Designed full Medallion architecture (Bronze/Silver/Gold) with data governance, Unity Catalog integration, and automated CI/CD pipelines for production deployments."
+              ghLink="https://github.com/Lavish5/lakehouse-architecture"
             />
           </Col>
-
-         
         </Row>
       </Container>
     </Container>

@@ -6,35 +6,35 @@ import {
   SiBitbucket,
   SiJira,
   SiPostman,
-  SiSlack
+  SiSlack,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons"> 
+      <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
-        <p className="icon-text"> Linux </p>
+        <p className="icon-text">Linux</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
-        <p className="icon-text"> VS Code </p>
+        <p className="icon-text">VS Code</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBitbucket />
-        <p className="icon-text"> Bitbucket </p>
+        <p className="icon-text">Bitbucket</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJira />
-        <p className="icon-text"> Jira </p>
+        <p className="icon-text">Jira</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
-        <p className="icon-text">PostMan </p>
+        <p className="icon-text">Postman</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
-        <p className="icon-text"> Slack </p>
+        <p className="icon-text">Slack</p>
       </Col>
     </Row>
   );

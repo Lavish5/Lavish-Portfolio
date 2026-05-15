@@ -1,13 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillMail,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { ImPointRight } from "react-icons/im";
+
+import myImg from "../../Assets/avatar.svg";
 
 function Home2() {
   return (
@@ -16,87 +11,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              A Quick <span className="purple">Introduction</span>
             </h1>
             <p className="home-about-body">
-            I fell in love with data engineering, and I have picked up a thing or two
-            along the way… 🤷‍♂️
-              <br />
-              <br />I am fluent in tools and languages like
-              <i>
-                <b className="purple">  Python, SQL and Spark.  </b>
-              </i>
+              I am a results-driven{" "}
+              <b className="purple">Data Engineer</b> with{" "}
+              <b className="purple">5+ years of experience</b> building scalable
+              data platforms, pipelines, and analytics-ready solutions.
               <br />
               <br />
-              My field of Interest's are lies in &nbsp;
-              <i>
-                <b className="purple"> Building Scalable Data Pipelines, Automating Workflows</b> and
-                and in{" "}
-                <b className="purple">
-                  Designing Data Architectures.
-                </b>
-              </i>
+              I enjoy turning complex, high-volume data into{" "}
+              <b className="purple">reliable data products</b> that teams can
+              trust for reporting, decision-making, and automation.
               <br />
               <br />
-              Whenever possible, I apply my passion for developing products
-              with <b className="purple">Cloud-Native Solutions</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Open Source Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Azure, Hadoop, Map Reduce.</b>
-              </i>
+              My work focuses on clean architecture, strong validation,
+              performance, governance, and building systems that stay
+              maintainable as data and business needs grow.
+              <br />
+              <br />
+              I care about writing practical solutions that are easy to
+              monitor, easy to improve, and useful for the people who depend on
+              data every day.
+            </p>
+            <p className="home-build-quote">
+              Build reliable systems, keep learning, and make the work easier
+              for the next person.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/Lavish5"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/lavish-jain-98aaa21b6/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="mailto:lavishjain05@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillMail />
-                </a>
-              </li>
-            </ul>
           </Col>
         </Row>
       </Container>
