@@ -187,6 +187,27 @@ button:focus {
   z-index: 1;
 }
 
+.nav-link-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.nav-link-icon {
+  flex: 0 0 auto;
+  width: 1.1em;
+  height: 1.1em;
+  display: block;
+  transform: translateY(0.03em);
+}
+
+.nav-link-label {
+  display: block;
+  line-height: 1.2;
+}
+
 .navbar-nav .nav-item a::after {
   content: "";
   position: relative;

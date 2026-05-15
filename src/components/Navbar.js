@@ -50,7 +50,10 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <span className="nav-link-content">
+                  <AiOutlineHome className="nav-link-icon" aria-hidden="true" />
+                  <span className="nav-link-label">Home</span>
+                </span>
               </Nav.Link>
             </Nav.Item>
 
@@ -60,7 +63,10 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <span className="nav-link-content">
+                  <AiOutlineUser className="nav-link-icon" aria-hidden="true" />
+                  <span className="nav-link-label">About</span>
+                </span>
               </Nav.Link>
             </Nav.Item>
 
@@ -70,10 +76,10 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFolder
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                <span className="nav-link-content">
+                  <AiOutlineFolder className="nav-link-icon" aria-hidden="true" />
+                  <span className="nav-link-label">Projects</span>
+                </span>
               </Nav.Link>
             </Nav.Item>
 
@@ -83,7 +89,10 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <span className="nav-link-content">
+                  <CgFileDocument className="nav-link-icon" aria-hidden="true" />
+                  <span className="nav-link-label">Resume</span>
+                </span>
               </Nav.Link>
             </Nav.Item>
 
@@ -93,7 +102,10 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <span className="nav-link-content">
+                  <ImBlog className="nav-link-icon" aria-hidden="true" />
+                  <span className="nav-link-label">Blogs</span>
+                </span>
               </Nav.Link>
             </Nav.Item>
 
@@ -103,7 +115,10 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <AiFillContacts style={{ marginBottom: "2px " }} /> Contact
+                <span className="nav-link-content">
+                  <AiFillContacts className="nav-link-icon" aria-hidden="true" />
+                  <span className="nav-link-label">Contact</span>
+                </span>
               </Nav.Link>
             </Nav.Item>
           </Nav>
