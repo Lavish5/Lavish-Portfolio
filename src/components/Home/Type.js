@@ -9,7 +9,7 @@ function Type() {
           "Data Engineer",
           "Data Pipeline Architect",
           "Big Data Enthusiast",
-          "Cloud Solutions Builder"
+          "Cloud Solutions Builder",
         ],
         autoStart: true,
         loop: true,

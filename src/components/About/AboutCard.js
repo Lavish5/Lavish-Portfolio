@@ -30,7 +30,6 @@ function AboutCard() {
               <ImPointRight /> Turning complex problems into practical solutions
             </li>
           </ul>
-
         </blockquote>
       </Card.Body>
     </Card>
