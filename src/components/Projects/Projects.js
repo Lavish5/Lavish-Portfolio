@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import codeEditor from "../../Assets/Projects/dataQuality.png";
+import dataQuality from "../../Assets/Projects/dataQuality.png";
 import analytics from "../../Assets/Projects/multiCloudETL.png";
 import lakehouse from "../../Assets/Projects/lakehouse.png";
 
@@ -22,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={codeEditor}
+              imgPath={dataQuality}
               isBlog={false}
               title="Automated Data Quality Framework"
               description="Built a data quality monitoring framework using Great Expectations and Python to validate and profile structured datasets. Implemented automated expectation suites with threshold-based alerting to detect schema drift and null violations before reaching downstream consumers."
