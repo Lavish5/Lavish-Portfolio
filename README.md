@@ -3,7 +3,7 @@
   <a href="https://lavish-tech.vercel.app/" target="_blank">Lavish-tech</a>
 </h2>
 
-## Built With
+## Built With 
 
 My personal portfolio <a href="https://lavish-tech.vercel.app/" target="_blank">Lavish-tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
@@ -15,6 +15,8 @@ This project was built using these technologies.
 - CSS3
 - VsCode
 - Vercel
+
+
 
 ## Features
 
